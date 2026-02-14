@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Georgia', serif;
-    background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
-    color: #333;
+    background: linear-gradient(135deg, #131313 0%, #062A77 100%);
+    color: #131313;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,9 +16,9 @@ body {
 }
 
 .container {
-    background: white;
+    background: #FFFFFF;
     border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 40px rgba(6, 42, 119, 0.3);
     max-width: 800px;
     width: 100%;
     padding: 40px;
@@ -28,19 +28,19 @@ body {
 header {
     text-align: center;
     margin-bottom: 30px;
-    border-bottom: 3px solid #ff1493;
+    border-bottom: 3px solid #062A77;
     padding-bottom: 20px;
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #ff1493;
+    color: #062A77;
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.1em;
-    color: #666;
+    color: #131313;
 }
 
 #game-container {
@@ -48,24 +48,26 @@ header p {
 }
 
 .story-box {
-    background: #fff5f7;
-    border-left: 5px solid #ff1493;
+    background: rgba(0, 83, 175, 0.08);
+    border-left: 5px solid #0053AF;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     font-size: 1.1em;
     line-height: 1.6;
     min-height: 100px;
+    color: #131313;
+    white-space: pre-line;
 }
 
 .character-box {
-    background: #f0f8ff;
+    background: rgba(6, 42, 119, 0.12);
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
-    border-left: 5px solid #4169e1;
+    border-left: 5px solid #062A77;
     font-weight: bold;
-    color: #4169e1;
+    color: #062A77;
 }
 
 .choices-box {
@@ -86,32 +88,32 @@ header p {
 }
 
 .btn-choice {
-    background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
-    color: white;
+    background: linear-gradient(135deg, #062A77 0%, #0053AF 100%);
+    color: #FFFFFF;
     text-align: left;
     padding: 15px 20px;
 }
 
 .btn-choice:hover {
     transform: translateX(10px);
-    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.4);
+    box-shadow: 0 5px 15px rgba(0, 83, 175, 0.4);
 }
 
 .btn-secondary {
-    background: #ddd;
-    color: #333;
+    background: #062A77;
+    color: #FFFFFF;
     margin-top: 20px;
 }
 
 .btn-secondary:hover {
-    background: #ccc;
+    background: #0053AF;
 }
 
 footer {
     text-align: center;
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #062A77;
 }
 
 @media (max-width: 600px) {
