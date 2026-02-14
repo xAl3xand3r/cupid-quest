@@ -1,9 +1,10 @@
 const storyData = {
-    title: "The Adventure of Alexander",
-    characters: [
-        { name: "Alexander", role: "Love Interest" },
-        { name: "Me", role: "Main Character" }
-    ],
+    start: {
+        character: 'Narrator',
+        text: 'Welcome to Cupid Quest! You are Cupid, on a mission to deliver love and happiness. Your heart has been captured by someone special... Alexander. Will you find the courage to confess your feelings?',
+        choices: [
+            { text: 'Yes, let\'s start this adventure!', next: 'meetAlexander' },
+            { text: 'I need more time to prepare...', next: 'prepare' }
     scenes: [
         {
             description: "You meet Alexander on an app called Discord. As you chat, you begin to feel a connection.",
